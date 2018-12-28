@@ -1,0 +1,15 @@
+\documentclass{book}
+\usepackage[active,tightpage]{preview}
+\usepackage{varwidth}
+\usepackage{egypto}
+\usepackage[psfonts]{hiero}
+\AtBeginDocument{\begin{preview}\begin{varwidth}{\linewidth}}
+\AtEndDocument{\end{varwidth}\end{preview}}
+
+\begin{document}
+
+\begin{hieroglyph}
+__HIERO_CONTENT__
+\end{hieroglyph}
+
+\end{document}

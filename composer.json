@@ -1,0 +1,21 @@
+{
+    "name": "hierotex/hierotex-php",
+    "description": "A PHP wrapper for HieroTeX",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Billington",
+            "email": "michael.billington@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "HieroTeX\\Hieroglyph\\": "src/"
+        }
+    }
+}
