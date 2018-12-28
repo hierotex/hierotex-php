@@ -7,14 +7,14 @@ It allows you to programatically create high-quality SVG images of inscriptions 
 ```php
 use \Hierotex\Hieroglyph\Inscription;
 
-header("Content-Type: image/svg");
+header("Content-Type: image/svg+xml");
 $inscription = new Inscription("i-mn:n-Htp:t*p");
 echo $inscription -> toSvg();
 ```
 
 Which creates this output:
 
-(image).
+![Image of i-mn:n-Htp:t*p](https://raw.githubusercontent.com/hierotex/hierotex-php/master/example/svg-to-stdout.svg?sanitize=true)
 
 The encoding of the inscription is [MdC](https://en.wikipedia.org/wiki/Manuel_de_Codage).
 
